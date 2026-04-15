@@ -6,38 +6,43 @@
   "main": "./out/extension.js",
   "publisher": "DromiSoftwares",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/DeMENIGECO/dromisoftwares-drlance.git"
-},
+    "type": "git",
+    "url": "https://github.com/DeMENIGECO/dromisoftwares-drlance.git"
+  },
   "engines": {
     "vscode": "^1.115.0"
   },
   "categories": [
     "Programming Languages"
   ],
+
+  "activationEvents": [
+  "onCommand:dromi.hello",
+  "onLanguage:dromi"
+],
   "contributes": {
     "commands": [
-  {
-    "command": "dromi.hello",
-    "title": "Dromi: Hello"
-  },
-  {
-    "command": "dromi.checkFunction",
-    "title": "Dromi: Check Function"
-  },
-  {
-    "command": "dromi.tip",
-    "title": "Dromi: Tip"
-  },
-  {
-    "command": "dromi.checkImport",
-    "title": "Dromi: Check Import"
-  },
-  {
-    "command": "dromi.debugJson",
-    "title": "Dromi: Debug JSON"
-  }
-],
+      {
+        "command": "dromi.hello",
+        "title": "Dromi: Hello"
+      },
+      {
+        "command": "dromi.checkFunction",
+        "title": "Dromi: Check Function"
+      },
+      {
+        "command": "dromi.tip",
+        "title": "Dromi: Tip"
+      },
+      {
+        "command": "dromi.checkImport",
+        "title": "Dromi: Check Import"
+      },
+      {
+        "command": "dromi.debugJson",
+        "title": "Dromi: Debug JSON"
+      }
+    ],
     "languages": [
       {
         "id": "dromi",
@@ -69,5 +74,14 @@
     "@types/node": "^25.6.0",
     "@types/vscode": "^1.116.0",
     "typescript": "^6.0.2"
-  }
+  },
+
+  "keywords": [
+  "dromi",
+  "dr",
+  "language",
+  "syntax",
+  "compiler"
+],
+  "license": "MIT"
 }
