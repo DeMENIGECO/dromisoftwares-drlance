@@ -1,0 +1,6 @@
+{
+  "deprecated": {
+    "os.system": "os.system è deprecato, usa subprocess.run()",
+    "modulo.main(['comando'])": "modulo.main(['comando']) è deprecato, usa subprocess.run(['comando'])"
+  }
+}

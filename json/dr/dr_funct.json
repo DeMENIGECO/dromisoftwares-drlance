@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "h1": "Titolo principale",
+    "h2": "Titolo secondario",
+    "h3": "Titolo terziario",
+    "h4": "Titolo quaternario",
+    "p": "Paragrafo",
+    "button": "Pulsante",
+    "inputer": "Campo di testo",
+    "clear": "Pulisci",
+    "update": "Aggiorna",
+    "set_window_size": "Imposta dimensione finestra",
+    "set_window_title": "Imposta titolo finestra",
+    "run() / dr.init()": "Esegui il programma"
+  },
+  "fallback": "Funzione non trovata in Dromi"
+}

@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "syntax_error": "Errore di sintassi: controlla parentesi o simboli",
+    "unknown_function": "Funzione non riconosciuta in Dromi",
+    "missing_file": "File non trovato o percorso errato"
+  }
+}

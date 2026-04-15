@@ -1,0 +1,11 @@
+{
+  "keywords": {
+    "function": "#4FC3F7",
+    "if": "#81C784",
+    "else": "#81C784",
+    "loop": "#FFB74D",
+    "error": "#E57373"
+  },
+  "background": "#1e1e1e",
+  "text": "#ffffff"
+}

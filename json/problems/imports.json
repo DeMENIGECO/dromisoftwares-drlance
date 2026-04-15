@@ -1,0 +1,7 @@
+{
+  "errors": {
+    "import_not_found": "Import non valido in Dromi",
+    "blocked_import": "Questo import è bloccato per sicurezza"
+  },
+  "solution": "Controlla py_supported.json per gli import consentiti"
+}

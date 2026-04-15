@@ -1,0 +1,7 @@
+{
+  "tips": [
+    "Importa solo ciò che usi",
+    "Evita import inutili",
+    "Controlla sempre py_supported.json"
+  ]
+}

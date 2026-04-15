@@ -1,0 +1,16 @@
+{
+  "allowed": [
+    "print",
+    "input",
+    "len",
+    "range",
+    "int",
+    "str",
+    "float"
+  ],
+  "blocked_imports": [
+    "os",
+    "sys",
+    "subprocess"
+  ]
+}
