@@ -4,7 +4,7 @@
   "description": "L'estensione VS Code per Dromi",
   "version": "1.0.0",
   "main": "./out/extension.js",
-  "publisher": "DromiSoftwares",
+  "publisher": "DromiSofwares",
   "repository": {
     "type": "git",
     "url": "https://github.com/DeMENIGECO/dromisoftwares-drlance.git"
