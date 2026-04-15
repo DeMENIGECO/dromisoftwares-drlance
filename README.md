@@ -12,13 +12,7 @@
 
 ## 💡 Perché usare DrLance?
 
-<div>
-
-**DrLance** è la
-
-<h3>🔥 l'estensione raccomandata per Dromi in VS Code</h3>
-
-</div>
+**DrLance** è la **🔥 l'estensione raccomandata per Dromi in VS Code**
 
 Con **DrLance** puoi scrivere codice **Dromi** in modo più veloce, chiaro e organizzato dentro VS Code.
 
