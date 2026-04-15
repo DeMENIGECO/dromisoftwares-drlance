@@ -1,0 +1,73 @@
+{
+  "name": "dromisofwares-drlance",
+  "displayName": "DrLance",
+  "description": "L'estensione VS Code per Dromi",
+  "version": "1.0.0",
+  "main": "./out/extension.js",
+  "publisher": "DromiSoftwares",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/DeMENIGECO/dromisoftwares-drlance.git"
+},
+  "engines": {
+    "vscode": "^1.115.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "commands": [
+  {
+    "command": "dromi.hello",
+    "title": "Dromi: Hello"
+  },
+  {
+    "command": "dromi.checkFunction",
+    "title": "Dromi: Check Function"
+  },
+  {
+    "command": "dromi.tip",
+    "title": "Dromi: Tip"
+  },
+  {
+    "command": "dromi.checkImport",
+    "title": "Dromi: Check Import"
+  },
+  {
+    "command": "dromi.debugJson",
+    "title": "Dromi: Debug JSON"
+  }
+],
+    "languages": [
+      {
+        "id": "dromi",
+        "aliases": [
+          "Dromi"
+        ],
+        "extensions": [
+          ".dr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dromi",
+        "scopeName": "source.dromi",
+        "path": "./syntaxes/dromisofwares-drlance-extension.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/vscode": "^1.116.0",
+    "typescript": "^6.0.2"
+  }
+}
