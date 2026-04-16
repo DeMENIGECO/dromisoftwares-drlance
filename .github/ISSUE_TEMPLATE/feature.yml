@@ -1,0 +1,62 @@
+name: "✨ Feature Request"
+description: "Suggerisci una nuova funzionalità per DrLance"
+title: "[FEATURE] Breve descrizione"
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: "✨ Descrizione della feature"
+      description: "Spiega la funzionalità che vorresti"
+      placeholder: |
+        Es: Aggiungere autocomplete intelligente per le funzioni Dromi
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "❓ Problema risolto"
+      description: "Che problema risolve questa feature?"
+      placeholder: |
+        Es: Attualmente devo scrivere tutto a mano e rischio errori
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "💡 Soluzione proposta"
+      description: "Come dovrebbe funzionare?"
+      placeholder: |
+        Es: Quando scrivo 'h' suggerisce h1, h2, ecc.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "🔄 Alternative considerate"
+      description: "Hai pensato ad altre soluzioni?"
+      placeholder: |
+        Es: Usare snippet invece dell'autocomplete
+
+  - type: input
+    id: vscode
+    attributes:
+      label: "🧠 Versione VS Code"
+      placeholder: "Es: 1.115.0"
+
+  - type: input
+    id: extension
+    attributes:
+      label: "📦 Versione DrLance"
+      placeholder: "Es: 1.0.0"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "➕ Informazioni aggiuntive"
+      description: "Altri dettagli utili"
+      placeholder: |
+        Es: Screenshot, esempi di codice, ecc.
