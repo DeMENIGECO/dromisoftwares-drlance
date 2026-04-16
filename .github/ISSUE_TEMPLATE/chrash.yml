@@ -1,0 +1,60 @@
+name: "💥 Crash Report"
+description: "Segnala un crash o errore grave di DrLance"
+title: "[CRASH] Breve descrizione"
+labels: ["crash"]
+assignees: []
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "💥 Descrizione del crash"
+      description: "Cosa è successo?"
+      placeholder: |
+        Es: VS Code si blocca quando apro un file .dr
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🔁 Passaggi per riprodurre"
+      description: "Come possiamo riprodurre il crash?"
+      placeholder: |
+        1. Apri VS Code
+        2. Apri file .dr
+        3. Scrivi ...
+        4. Crasha
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📄 Log / errori"
+      description: "Incolla eventuali errori dalla console"
+      placeholder: |
+        Incolla qui errori o stack trace
+
+  - type: input
+    id: vscode
+    attributes:
+      label: "🧠 Versione VS Code"
+      placeholder: "Es: 1.115.0"
+    validations:
+      required: true
+
+  - type: input
+    id: extension
+    attributes:
+      label: "📦 Versione DrLance"
+      placeholder: "Es: 1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "💻 Sistema operativo"
+      options:
+        - Windows
