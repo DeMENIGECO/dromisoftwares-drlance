@@ -1,0 +1,68 @@
+# example.dr
+
+# Questo è un test file per vedere se funziona bene drlance.
+# drlance è un'estensione per Visual Studio Code che consente di usare Dromi molto più efficentemente in VS Code.
+
+# 1 - Titoli
+
+h1("Titolo 1")
+h2("Titolo 2")
+h3("Titolo 3")
+h4("Titolo 4")
+
+# 2 - Scrittura e input
+
+p("Questo è un paragrafo di testo. Puoi scrivere quello che vuoi qui dentro.")
+inputer("Questo è un input. Puoi scrivere qualcosa qui dentro e poi usarlo in seguito.")
+
+# 3 - Variabili
+
+variabili = "Questa è una variabile. Puoi usarla per memorizzare valori e usarli in seguito."
+COSTANTE = "Questa è una costante. Puoi usarla per memorizzare valori che non cambiano."
+lista = ["Questo", "è", "una", "lista", "di", "valori."]
+tupla = ("Questo", "è", "una", "tupla", "di", "valori.")
+dizionario = {"chiave1": "valore1", "chiave2": "valore2", "chiave3": "valore3"}
+
+# 4 - Funzioni Python
+
+print("Questo è un esempio di funzione Python. Puoi usare qualsiasi funzione Python qui dentro.")
+input("Input Python:")
+
+var = 0
+
+def funzione():
+    global var
+    var += 1
+    print("La variabile var è ora:", var)
+
+
+if var == <5:
+    funzione()
+elif var == 5:
+    print("La variabile var è uguale a 5.")
+else:
+    print("La variabile var è maggiore di 5.")
+
+class Classe:
+    def __init__(self, nome):
+        self.nome = nome
+
+    def saluta(self):
+        print("Ciao, il mio nome è", self.nome)
+
+# 5 - Import dromi
+
+from mdl import windawk #dromi.exe --mdl pip install windawk - no alias
+from mdl import windawk a wdwk #dromi.exe --mdl pip install windawk - alias wdwk
+
+# 6 - Gestione contenuti finestra
+
+clear()
+update()
+
+# 7 - Esecuzione finestra
+
+run()
+dr.init()
+
+# run e dr.init fanno la stessa identica cosa, puoi usare quello che preferisci. run è più breve da scrivere, ma dr.init è più esplicito.
