@@ -1,0 +1,82 @@
+name: "🐞 Bug Report"
+description: "Segnala un problema o malfunzionamento in DrLance"
+title: "[BUG] Breve descrizione del problema"
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📄 Descrizione del problema
+      description: Spiega chiaramente cosa non funziona.
+      placeholder: |
+        Es: Il syntax highlighting non funziona nei file .dr
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Passaggi per riprodurre
+      description: Come possiamo riprodurre il problema?
+      placeholder: |
+        1. Apri VS Code
+        2. Apri un file .dr
+        3. Scrivi ...
+        4. Succede ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamento atteso
+      description: Cosa dovrebbe succedere?
+      placeholder: |
+        Es: Il codice dovrebbe essere evidenziato correttamente
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshot (opzionale)
+      description: Aggiungi immagini se utili
+      placeholder: |
+        Trascina qui screenshot o incolla immagini
+
+  - type: input
+    id: vscode
+    attributes:
+      label: 🧠 Versione VS Code
+      placeholder: Es: 1.115.0
+    validations:
+      required: true
+
+  - type: input
+    id: extension
+    attributes:
+      label: 📦 Versione DrLance
+      placeholder: Es: 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 💻 Sistema operativo
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: ➕ Informazioni aggiuntive
+      description: Qualsiasi dettaglio utile
+      placeholder: |
+        Es: Uso Windows 10, file molto grande, ecc.
