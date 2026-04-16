@@ -49,8 +49,8 @@ body:
   - type: input
     id: vscode
     attributes:
-      label: 🧠 Versione VS Code
-      placeholder: Es: 1.115.0
+      label: "🧠 Versione VS Code"
+      placeholder: "Es: 1.115.0"
     validations:
       required: true
 
