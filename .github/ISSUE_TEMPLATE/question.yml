@@ -1,0 +1,55 @@
+name: "❓ Question / Support"
+description: "Fai una domanda o chiedi supporto per DrLance"
+title: "[QUESTION] La tua domanda"
+labels: ["question"]
+assignees: []
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "❓ La tua domanda"
+      description: "Scrivi chiaramente la tua domanda"
+      placeholder: |
+        Es: Come attivo l'autocomplete per Dromi?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "📄 Contesto"
+      description: "Cosa stavi facendo quando hai avuto il problema?"
+      placeholder: |
+        Es: Stavo scrivendo un file .dr e non funzionava...
+    validations:
+      required: false
+
+  - type: input
+    id: vscode
+    attributes:
+      label: "🧠 Versione VS Code"
+      placeholder: "Es: 1.115.0"
+
+  - type: input
+    id: extension
+    attributes:
+      label: "📦 Versione DrLance"
+      placeholder: "Es: 1.0.0"
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "💻 Sistema operativo"
+      options:
+        - Windows
+        - Linux
+        - macOS
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "➕ Informazioni aggiuntive"
+      description: "Altri dettagli utili"
+      placeholder: |
+        Es: Screenshot, codice, ecc.
