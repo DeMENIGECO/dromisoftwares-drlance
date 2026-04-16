@@ -57,8 +57,8 @@ body:
   - type: input
     id: extension
     attributes:
-      label: 📦 Versione DrLance
-      placeholder: Es: 1.0.0
+      label: "📦 Versione DrLance"
+      placeholder: "Es: 1.0.0"
     validations:
       required: true
 
