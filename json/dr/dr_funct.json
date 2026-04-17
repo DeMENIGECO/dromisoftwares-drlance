@@ -12,7 +12,16 @@
     "set_window_size": "Imposta dimensione finestra",
     "set_window_title": "Imposta titolo finestra",
     "run": "Esegui il programma",
-    "dr.init":"Esegui il programma"
+    "dr.init":"Esegui il programma",
+    "init": "(Parte di dr.init) collaboratore dr.init",
+    "print":"(Python) Stampa un messaggio sulla console",
+    "str":"(Python) Converte un valore in una stringa",
+    "int":"(Python) Converte un valore in un intero",
+    "float":"(Python) Converte un valore in un numero decimale",
+    "len":"(Python) Restituisce la lunghezza di un oggetto",
+    "range":"(Python) Restituisce una sequenza di numeri",
+    "try":"(Python) Prova a eseguire un blocco di codice e gestisce le eccezioni",
+    "except":"(Python) Gestisce le eccezioni sollevate da un blocco try"
   },
   "fallback": "Funzione non trovata in Dromi"
 }
